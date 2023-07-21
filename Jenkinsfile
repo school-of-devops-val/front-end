@@ -7,13 +7,13 @@ pipeline {
 
     stages {
         
-         stage('SCM-Checkout') {
+        /* stage('SCM-Checkout') {
             steps {
                 echo 'SCM-Checkout..'
               git 'https://github.com/school-of-devops-val/front-end.git'
             }
         }
-        
+        */
         
         stage('Build') {
             steps {
